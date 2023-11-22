@@ -16,3 +16,4 @@ use App\Http\Controllers\OrderPayment;
 
 Route::get('/', [OrderPayment::class, 'index']);
 Route::post('/checkout', [OrderPayment::class, 'checkout']);
+Route::post('/midtrans-callback', [OrderPayment::class, 'callback']);
