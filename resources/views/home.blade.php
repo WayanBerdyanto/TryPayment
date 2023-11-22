@@ -36,6 +36,7 @@
                                     <div class="col-sm-10">
                                         <input type="number" class="form-control" id="qty" name="qty">
                                     </div>
+                                    <h1>Hellow Dunia</h1>
                                 </div> 
 
                                 <div class="form-group row">
