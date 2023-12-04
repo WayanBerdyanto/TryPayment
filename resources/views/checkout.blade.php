@@ -57,8 +57,7 @@
                 embedId: 'snap-container',
                 onSuccess: function(result) {
                     /* You may add your own implementation here */
-                    alert("payment success!");
-                    console.log(result);
+                    return {{r}}
                 },
                 onPending: function(result) {
                     /* You may add your own implementation here */

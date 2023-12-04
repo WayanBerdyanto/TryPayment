@@ -29,7 +29,7 @@ class OrderPayment extends Controller
 
         $params = array(
             'transaction_details' => array(
-                'order_id' => $order->id,
+                'order_id' => $order->id . '_' . uniqid(),
                 'gross_amount' => $order->total_price,
             ),
             'customer_details' => array(
